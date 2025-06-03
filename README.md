@@ -63,5 +63,16 @@ This dashboard serves as a decision-support tool for:
   - Top Brands by Reviews
   - Highest Rated Mobiles
 
+---
+
+## ✅ Outcomes
+
+- Reduced manual effort in monitoring market trends with an automated, visual dashboard.
+- Provided key insights to support pricing, marketing, and stock planning decisions.
+- Built a reusable framework to update and expand the analysis for other marketplaces.
+
+---
+
+> 📌 *This project demonstrates real-world data collection, transformation, and visualization to drive business strategy in a retail setting.*
 
 
