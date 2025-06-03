@@ -6,7 +6,7 @@ This project focuses on extracting, analyzing, and visualizing smartphone sales 
 
 ## 📌 Project Description
 
-Using data scraped from Flipkart (via **BeautifulSoup** and **Selenium**), I compiled key product information such as:
+Using data scraped from Flipkart (via **BeautifulSoup** and **requests**), I compiled key product information such as:
 
 - Price  
 - Reviews  
