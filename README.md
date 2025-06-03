@@ -63,7 +63,5 @@ This dashboard serves as a decision-support tool for:
   - Top Brands by Reviews
   - Highest Rated Mobiles
 
----
 
-## 📁 Project Structure
 
