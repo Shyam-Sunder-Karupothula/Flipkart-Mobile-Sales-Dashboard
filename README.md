@@ -1,49 +1,69 @@
-📊 Flipkart Mobile Sales Dashboard
+# 📊 Flipkart Mobile Sales Dashboard
+
 This project focuses on extracting, analyzing, and visualizing smartphone sales data from Flipkart to uncover pricing patterns, brand performance, and technical specification trends. The goal is to support data-driven business decisions in e-commerce and electronics retail domains.
 
-📌 Project Description
-Using data scraped from Flipkart (via BeautifulSoup/Selenium), I compiled key product information such as price, reviews, RAM/ROM configurations, display sizes, processors, and ratings for 120 smartphones across 16 brands.
+---
 
-The cleaned dataset was then imported into Power BI where a fully interactive dashboard was built to track pricing strategies, customer preferences, and specification-wise trends.
+## 📌 Project Description
 
-🎯 Business Purpose
+Using data scraped from Flipkart (via **BeautifulSoup** and **Selenium**), I compiled key product information such as:
+
+- Price  
+- Reviews  
+- RAM/ROM configurations  
+- Display sizes  
+- Processor types  
+- Ratings  
+
+The final dataset includes **120 smartphones across 16 brands**. After cleaning and transforming the data in **Excel**, I used **Power BI** to build a fully interactive dashboard that helps track pricing strategies, customer preferences, and technical trends.
+
+---
+
+## 🎯 Business Purpose
+
 This dashboard serves as a decision-support tool for:
 
-Retail strategy teams to identify best-selling brands and specifications.
+- 💼 **Retail strategy teams** to identify best-selling brands and specifications.
+- 📱 **Product managers** to optimize product portfolios based on performance and pricing.
+- 📈 **Marketing teams** to understand what drives reviews and ratings.
+- 📊 **Data analysts** to monitor trends and generate insights without manual tracking.
 
-Product managers to optimize product portfolios based on performance and price segmentation.
+---
 
-Marketing teams to understand what drives reviews and ratings.
+## 🔍 Key Insights from the Dashboard
 
-Data analysts to monitor trends and generate insights without manual tracking.
+- 🍎 **Apple** has the highest average price (~₹49K) but lower total reviews, indicating a premium niche segment.
+- 📱 **Vivo** leads with **108 reviews**, suggesting strong customer engagement and volume-based sales.
+- 💾 **8GB–12GB RAM** models generate the highest revenue—highlighting a consumer preference for performance devices.
+- 🧠 **Snapdragon processors** dominate revenue (~₹1.6M), showing a strong processor-brand impact on sales.
+- 📐 Most popular screen sizes are **6.0" to 6.8"**, which guides design and inventory strategy.
+- ⚠️ **Apple** phones with missing RAM values were handled using custom “Not Available” labeling to retain insights in visualizations.
 
-🔍 Key Insights from the Dashboard
-Apple has the highest average pricing (~₹49K) but lower total reviews, indicating a premium market segment with less volume.
+---
 
-Vivo leads in customer engagement with 108 reviews, making it a key brand to monitor for volume strategy.
+## 🧠 How This Helps Business Strategy
 
-8GB–12GB RAM models capture the highest revenue share, implying mid to high-spec phones are most profitable.
+| Area               | Dashboard Impact                                                                 |
+|--------------------|----------------------------------------------------------------------------------|
+| **Product Pricing** | Shows how features like RAM, Display, and Processor influence pricing tiers.     |
+| **Brand Monitoring**| Ranks brands by reviews, price, and product count to assist in market tracking. |
+| **Customer Insights**| Reveals which features and brands drive user engagement.                       |
+| **Inventory Planning**| Helps stock popular specs like 8GB RAM or Snapdragon efficiently.             |
+| **Marketing Campaigns**| Guides campaign targeting by tier and feature-based customer interest.       |
 
-Snapdragon processors dominate in terms of cumulative sales value (~₹1.6M), followed by generic or less branded chips.
+---
 
-Most popular screen sizes are between 6.0" and 6.8", which helps in understanding consumer form-factor preferences.
+## ⚙️ Tools & Technologies Used
 
-Despite Apple having 0 RAM listing (displayed as 'Not Available'), it still competes in high price brackets—handled with a custom label to improve clarity in visuals.
+- 🐍 **Python** – Web scraping using `BeautifulSoup` and `Selenium`
+- 📊 **Excel / Power Query** – Data cleaning and transformation
+- 📈 **Power BI** – Visual dashboard creation and DAX-based KPIs
+- 💡 **DAX (Data Analysis Expressions)** – Used to calculate:
+  - Average Price
+  - Top Brands by Reviews
+  - Highest Rated Mobiles
 
-🧠 How This Helps Business Strategy
-Area	Dashboard Impact
-Product Pricing	Reveals how specs (RAM, Display, Processor) affect total price contribution.
-Brand Monitoring	Tracks top-performing brands by reviews, price, and product count.
-Customer Insights	Displays which brands/specs attract more reviews and higher ratings.
-Inventory Planning	Helps focus stock and procurement around popular specs like 8GB RAM or Snapdragon SoCs.
-Marketing Campaigns	Target campaigns around price tiers and high-engagement devices.
+---
 
-⚙️ Tools Used
-Python (BeautifulSoup, Selenium): For web scraping mobile product data.
-
-Excel / Power Query: For data cleaning and transformation.
-
-Power BI: For building the visual dashboard.
-
-DAX (Data Analysis Expressions): For KPIs like Avg Price, Avg Ratings, Top Brands by Reviews.
+## 📁 Project Structure
 
